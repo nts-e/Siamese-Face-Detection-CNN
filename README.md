@@ -6,6 +6,8 @@ The authors' paper explores a method for learning siamese neural networks to ran
 I experimented with a wide range of hyperparameters, including those proposed in the original paper as well as my own modifications. The experiments resulted in an accuracy score of 0.706 on the test set, using a configuration that included similar
 convolutional filters and kernels as in the paper, but with differences in batch size, learning rate, and weight initialization.
 
+The code is implemented in Keras.
+
 ## Dataset
 The dataset used in this assignment consists of a folder containing images of faces of people,
 along with two text files that specify which image pairs should be used for comparison in the
